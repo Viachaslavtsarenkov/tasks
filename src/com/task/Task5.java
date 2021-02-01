@@ -1,12 +1,8 @@
-package com.company;
+package com.task;
 
-public class Main {
+public class Task5 {
 
-    public static void main(String[] args) {
-        System.out.println(isPerfect(28));
-    }
-
-    static boolean isPerfect(int number) {
+    public static boolean isPerfect(int number) {
         int sum = 0;
         for (int i = 1; i < number; ++i) {
             if (number % i == 0) {
