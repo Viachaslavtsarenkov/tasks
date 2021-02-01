@@ -1,6 +1,6 @@
 package com.company;
 
-import com.task.*;
+import com.company.task.*;
 
 public class Main {
 
