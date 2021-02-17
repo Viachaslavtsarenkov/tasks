@@ -1,7 +1,6 @@
-package com.company.task;
+package task;
 
 public class Task2 {
-
     static final private int[] AMOUNT_DAYS = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31,30 ,31};
 
     static public boolean isLeap(int year) {

@@ -1,7 +1,6 @@
-package com.company.task;
+package task;
 
 public class Task5 {
-
     public static boolean isPerfect(int number) {
         int sum = 0;
         for (int i = 1; i < number; ++i) {
