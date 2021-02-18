@@ -33,7 +33,7 @@ public class Task7Test {
     }
 
     @Test
-    public void pointsTest() {
+    public void comparePointsTest() {
         boolean expected = result;
         boolean actual = Task7.comparePoints(x1, y1, x2, y2);
         Assert.assertEquals(expected, actual);

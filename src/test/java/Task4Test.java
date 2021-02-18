@@ -3,7 +3,6 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import task.Task4;
-
 import java.util.Arrays;
 import java.util.Collection;
 
@@ -22,7 +21,7 @@ public class Task4Test {
     }
 
     @Parameterized.Parameters
-    public static Collection<Object[]> evenValues() {
+    public static Collection<Object[]> task4Parameters() {
         return Arrays.asList(new Object[][] {
             {1, 2, 3, 4, true },
             {1, 33, 44, 5, false},

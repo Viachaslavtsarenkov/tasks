@@ -1,4 +1,4 @@
-package task;
+package by.company.task;
 
 public class Task8 {
     public static double getValueFunction(double x) {

@@ -4,7 +4,6 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 import task.Task1;
-
 import java.util.Arrays;
 import java.util.Collection;
 
@@ -19,7 +18,7 @@ public class Task1Test {
     }
 
     @Parameters
-    public static Collection<Object[]> squaresOfLastDigit() {
+    public static Collection<Object[]> squareLastDigitParameters() {
         return Arrays.asList(new Object[][]{
                 {23, 9},
                 {144, 6},

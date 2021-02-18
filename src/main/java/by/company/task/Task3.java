@@ -1,4 +1,4 @@
-package task;
+package by.company.task;
 
 public class Task3 {
     public static double getSecondAreaSquare(double firstArea) {

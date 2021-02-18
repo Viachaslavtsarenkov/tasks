@@ -1,4 +1,4 @@
-package task;
+package by.company.task;
 
 public class Task2 {
     static final private int[] AMOUNT_DAYS = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31,30 ,31};

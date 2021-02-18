@@ -1,4 +1,5 @@
-package task;
+package by.company.task;
+
 import java.util.ArrayList;
 
 public class Task9 {

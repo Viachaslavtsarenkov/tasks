@@ -1,4 +1,4 @@
-package task;
+package by.company.task;
 
 public class Task4 {
     public static boolean count(int a, int b, int c, int d) {

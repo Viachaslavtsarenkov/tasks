@@ -1,4 +1,4 @@
-package task;
+package by.company.task;
 
 public class Task7 {
     public static double getDistance(int x, int y) {

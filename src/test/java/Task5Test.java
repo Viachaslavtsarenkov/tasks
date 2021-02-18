@@ -4,7 +4,6 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 import task.Task5;
-
 import java.util.Arrays;
 import java.util.Collection;
 
@@ -20,7 +19,7 @@ public class Task5Test {
     }
 
     @Parameters
-    public static Collection<Object[]> perfectNumbers() {
+    public static Collection<Object[]> Task5Parameters() {
         return Arrays.asList(new Object[][]{
                 {6, true},
                 {28, true},

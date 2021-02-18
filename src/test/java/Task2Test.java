@@ -4,7 +4,6 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 import task.Task2;
-
 import java.util.Arrays;
 import java.util.Collection;
 
@@ -16,7 +15,7 @@ public class Task2Test {
     private int amountDays;
     private boolean leap;
 
-    public Task2Test(int year, int month, int amountDays, boolean leap) {
+    public Task2Test( int year, int month, int amountDays, boolean leap) {
         this.month = month;
         this.year = year;
         this.amountDays = amountDays;
@@ -31,7 +30,7 @@ public class Task2Test {
     }
 
     @Test
-    public void amountOfDaysTest() {
+    public void getAmountOfDaysTest() {
         int expected = amountDays;
         int actual = Task2.getAmountDays(month, year);
         Assert.assertEquals(expected, actual, 7);

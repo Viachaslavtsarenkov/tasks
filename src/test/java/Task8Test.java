@@ -17,7 +17,7 @@ public class Task8Test {
     }
 
     @Parameterized.Parameters
-    public static Collection<Object[]> fXResults() {
+    public static Collection<Object[]> task8Parameters() {
         return Arrays.asList(new Object[][] {
             {3, 9},
             {5, -1},
